@@ -94,3 +94,12 @@
 .fa {
     padding-right: 0.1vh; /* Adjust padding using vh units */
 }
+
+/* Media Query for Phone Support */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens here */
+    .center-image {
+        width: 30%;
+        /* height: 20%; */
+    }
+}
