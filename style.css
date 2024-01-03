@@ -42,27 +42,27 @@
 
 /* Styling for headings and descriptions */
 .heading {
-    font-size: calc(var(--base-font-size) * 2.4);
+    font-size: calc(var(--base-font-size) * 3);
     font-weight: bold;
     margin-top: 3vh; /* Adjust margin using vh units */
     text-align: center;
 }
 
 .sub-heading {
-    font-size: calc(var(--base-font-size) * 2);
+    font-size: calc(var(--base-font-size) * 2.4);
     font-weight: bold;
     margin-top: 1vh; /* Adjust margin using vh units */
     text-align: center;
 }
 
 .subtitle {
-    font-size: calc(var(--base-font-size) * 1.8);
+    font-size: calc(var(--base-font-size) * 2.2);
     font-weight: bold;
     text-align: center;
 }
 
 .description {
-    font-size: calc(var(--base-font-size) * 1.6);
+    font-size: calc(var(--base-font-size) * 2);
     margin-top: 1vh; /* Adjust margin using vh units */
     text-align: center;
 }
