@@ -30,6 +30,17 @@
     background-color: #333;
 }
 
+.map {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.centered-iframe {
+    width: 80%; /* Adjust as needed */
+    max-width: calc(var(--base-font-size) * 100);
+    height: calc(var(--base-font-size) * 40);
+}
+
 /* Styling for center image */
 .center-image {
     display: block;
@@ -101,5 +112,9 @@
     .center-image {
         width: 30%;
         /* height: 20%; */
+    }
+
+    .centered-iframe {
+        height: calc(var(--base-font-size) * 30);
     }
 }
