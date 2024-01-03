@@ -1,3 +1,8 @@
+/* Set a base font size using a variable */
+:root {
+    --base-font-size: 1vh; /* You can adjust the value as needed */
+}
+
 /* Reset default margin and padding for all elements */
 * {
     margin: 0;
@@ -7,7 +12,7 @@
 
 /* Styling for Navbar */
 .navbar {
-    background-color: #000;
+    background-color: #333;
     overflow: hidden;
     text-align: center;
 }
@@ -16,7 +21,7 @@
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.4vh 1.6vh; /* Adjust padding using vh units */
     text-decoration: none;
     font-weight: bold;
 }
@@ -29,7 +34,7 @@
 .center-image {
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 2vh; /* Adjust margin using vh units */
     width: 20%;
     height: 20%;
     border-radius: 5%;
@@ -37,40 +42,40 @@
 
 /* Styling for headings and descriptions */
 .heading {
-    font-size: 24px;
+    font-size: calc(var(--base-font-size) * 2.4);
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 3vh; /* Adjust margin using vh units */
     text-align: center;
 }
 
 .sub-heading {
-    font-size: 20px;
+    font-size: calc(var(--base-font-size) * 2);
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 1vh; /* Adjust margin using vh units */
     text-align: center;
 }
 
 .subtitle {
-    font-size: 18px;
+    font-size: calc(var(--base-font-size) * 1.8);
     font-weight: bold;
     text-align: center;
 }
 
 .description {
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: calc(var(--base-font-size) * 1.6);
+    margin-top: 1vh; /* Adjust margin using vh units */
     text-align: center;
 }
 
 /* Styling for contact details */
 .contact-details {
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: calc(var(--base-font-size) * 1.8);
+    margin-top: 2vh; /* Adjust margin using vh units */
     text-align: center;
 }
 
 .contact-item {
-    margin-bottom: 10px;
+    margin-bottom: 1vh; /* Adjust margin using vh units */
 }
 
 .contact-tab {
@@ -81,40 +86,11 @@
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 1vh 0; /* Adjust padding using vh units */
     z-index: 999; /* Ensure it's above other elements */
 }
 
 /* Styling for Font Awesome icons */
 .fa {
-    padding-right: 10px;
-}
-
-/* Media Query for Phone Support */
-@media (max-width: 600px) {
-    /* Adjust styles for smaller screens here */
-    .center-image {
-        width: 50%;
-        height: 50%;
-    }
-    
-    .heading {
-        font-size: 20px;
-    }
-    
-    .sub-heading {
-        font-size: 18px;
-    }
-    
-    .subtitle {
-        font-size: 16px;
-    }
-    
-    .description {
-        font-size: 14px;
-    }
-    
-    .contact-details {
-        font-size: 16px;
-    }
+    padding-right: 0.1vh; /* Adjust padding using vh units */
 }
