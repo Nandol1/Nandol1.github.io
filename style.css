@@ -117,4 +117,26 @@
     .centered-iframe {
         height: calc(var(--base-font-size) * 30);
     }
+
+    /* Styling for headings and descriptions */
+    .heading {
+        font-size: calc(var(--base-font-size) * 2.5);
+    }
+
+    .sub-heading {
+        font-size: calc(var(--base-font-size) * 2);
+    }
+
+    .subtitle {
+        font-size: calc(var(--base-font-size) * 1.7);
+    }
+
+    .description {
+        font-size: calc(var(--base-font-size) * 1.5);
+    }
+
+    /* Styling for contact details */
+    .contact-details {
+        font-size: calc(var(--base-font-size) * 1.4);
+    }
 }
