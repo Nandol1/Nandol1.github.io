@@ -107,18 +107,6 @@
     padding-right: 0.1vh; /* Adjust padding using vh units */
 }
 
-/* Styling for the PDF Viewer */
-.pdf-viewer {
-    position: absolute; /* Position below navbar */
-    top: calc(var(--base-font-size) * 5); /* Adjust according to the navbar height */
-    left: 0;
-    width: 100%;
-    background-color: white; /* Background for the PDF viewer */
-    z-index: 100; /* Below the navbar */
-}
-
-
-
 /* Media Query for Phone Support */
 @media (max-width: 600px) {
     /* Adjust styles for smaller screens here */
