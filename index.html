@@ -10,23 +10,10 @@
 </head>
 <body>
     <!-- Navbar -->
-	<div class="navbar">
-		<a href="index.html" class="navbar-item">HOME</a>
-		<!-- Updated Contacts PDF Link -->
-		<a href="#" class="navbar-item" onclick="showPdfViewer()">Contacts PDF</a>
-	</div>
-
-	<!-- PDF Viewer Section -->
-	<div id="pdf-viewer" class="pdf-viewer" style="display:none;">
-		<iframe id="pdf-iframe" src="contacts.pdf" style="width:100%; height:calc(100vh - 50px);" frameborder="0"></iframe>
-	</div>
-
-	<script>
-		function showPdfViewer() {
-			document.getElementById('pdf-viewer').style.display = 'block';
-		}
-	</script>
-	
+    <div class="navbar">
+        <a href="index.html" class="navbar-item">HOME</a>
+        <a href="contacts.pdf" class="navbar-item">Contacts PDF</a>
+    </div>
 
 	<!-- <img src="resources\icon.jpg" alt="No Image Found" class="center-image"> -->
 	<div class="map">
