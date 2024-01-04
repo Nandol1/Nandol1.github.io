@@ -10,15 +10,27 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div class="navbar">
-        <a href="index.html" class="navbar-item">HOME</a>
-        <a href="contacts.pdf" class="navbar-item">Contacts PDF</a>
-    </div>
+	<div class="navbar">
+		<a href="index.html" class="navbar-item">HOME</a>
+		<!-- Updated Contacts PDF Link -->
+		<a href="#" class="navbar-item" onclick="showPdfViewer()">Contacts PDF</a>
+	</div>
+
+	<!-- PDF Viewer Section -->
+	<div id="pdf-viewer" class="pdf-viewer" style="display:none;">
+		<iframe id="pdf-iframe" src="contacts.pdf" style="width:100%; height:calc(100vh - 50px);" frameborder="0"></iframe>
+	</div>
+
+	<script>
+		function showPdfViewer() {
+			document.getElementById('pdf-viewer').style.display = 'block';
+		}
+	</script>
+	
 
 	<!-- <img src="resources\icon.jpg" alt="No Image Found" class="center-image"> -->
 	<div class="map">
 		<iframe class="centered-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4574.08813298365!2d72.81541937615276!3d23.209953879042864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395dd66ddd3799d5%3A0x1c73c4ab8436c663!2sNandol%2C%20Gujarat%20382305%2C%20India!5e1!3m2!1sen!2sus!4v1704303672560!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<!-- 		<iframe class="centered-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9148.176257685887!2d72.817994!3d23.209954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395dd66ddd3799d5%3A0x1c73c4ab8436c663!2sNandol%2C%20Gujarat%20382305%2C%20India!5e1!3m2!1sen!2sus!4v1704303420339!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 	</div>
 
     <!-- Heading DADA name -->
@@ -29,7 +41,7 @@
         <!-- The Band Section -->
         <div class="content">
             <h1 class="sub-heading">Nandol / નાંદોલ</h1>
-            <p class="subtitle">e-Address Book</p>
+            <p class="subtitle">e-Address Book - 2024 Edition</p>
             <p class="description">આ વેબસાઇટમાં ગામની બહાર રહેતા તમામ પટેલ ભાઈઓની સંપર્કો ડિરેક્ટરીનું પીડીએફ સંસ્કરણ છે.</p>
             <p class="description">પીડીએફ ખોલવા માટે કૃપા કરીને વેબસાઇટની ટોચ પર "Contacts PDF" પર ક્લિક કરો.</p>
             <p class="description">તમે અમને આપેલા યોગદાન બદલ આભાર.</p>
@@ -42,11 +54,11 @@
 			<div class="contact-details">
 				<div class="contact-item">
 					<i class="fa fa-map-marker"></i> Nandol, Gujarat, India<br>
-					<i class="fa fa-phone"></i> Phone: +91 9825492634<br>
-					<i class="fa fa-envelope"></i> Email: devnandol@gmail.com
+					<i class="fa fa-phone"></i> +91 9825492634<br>
+					<i class="fa fa-envelope"></i> devnandol@gmail.com
 				</div>
 			</div>
-			<p class="subtitle"><i>If any errors then do not hesitate to contact.</i></p>
+			<p class="description"><i>જો કોઈ ભૂલ હોય તો સંપર્ક કરવામાં અચકાવું નહીં.</i></p>
 		</div>
 
     </div>
